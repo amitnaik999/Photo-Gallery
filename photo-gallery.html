@@ -122,30 +122,33 @@
             .home .demo-gallery {
               padding-bottom: 80px;
             }
-            h3 {
-              text-align: center;
-              color: white;
-            }
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     </head>
     <body class="home">
 
         <div class="demo-gallery">
-            <ul class="list-unstyled row">
-                <li class="col-xs-6 col-sm-4 col-md-3" style="width:350px">
-                    <a href="Photo-Gallery.html">
-                        <img class="img-responsive" src="img/bay-15.jpg">
+            <ul id="lightgallery" class="list-unstyled row">
+                <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/03.jpg" data-sub-html="<h4>Ambience</h4><p>Lorem Ipsum is simply dummy text...</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/thumb-03.jpg">
                     </a>
-                    <h3>Bya 15</h3>
                 </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" style="width:350px">
-                    <a href="Photo-Gallery.html">
-                        <img class="img-responsive" src="img/grand-hayat.jpg">
+                <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/19.jpg" data-sub-html="<h4>Photo Opt</h4><p>Lorem Ipsum is simply dummy text...</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/thumb-19.jpg">
                     </a>
-                    <h3>Grand Hayat</h3>
                 </li>
-
+                <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/21.jpg" data-sub-html="<h4>Table Seating</h4><p>Lorem Ipsum is simply dummy text...</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/thumb-21.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/36.jpg" data-sub-html="<h4>Cake Table</h4><p>Lorem Ipsum is simply dummy text...</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/thumb-36.jpg">
+                    </a>
+                </li>
             </ul>
         </div>
         <script type="text/javascript">
